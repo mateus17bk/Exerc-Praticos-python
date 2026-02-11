@@ -32,7 +32,12 @@ print("A soma dos números total é: ", int(num1+num2+num3))
 
 ###
 
-5)
+6)
+nota1 = float(input("Informe a primeira nota: "))
+nota2 = float(input("Informe a segunda nota: "))
+nota3 = float(input("Informe a terceira nota: "))
+nota4 = float(input("Informe a quarta nota: "))
+print("A média da nota é: ", float(nota1+nota2+nota3+nota4)/4)
 
 ###
 
