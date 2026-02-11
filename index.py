@@ -41,22 +41,49 @@ print("A média da nota é: ", float(nota1+nota2+nota3+nota4)/4)
 
 ###
 
-5)
+7)
+metros = float(input("Informe a medidade em metros: "))
+print("A medida convertida em centímetros: ", float(metros*100))
+
 
 ###
 
-5)
+8)
+
+num1 = float(input("Digite um número: "))
+print("o valor do cubo é: ", num1**2 , "E o valor do quadrado é: ", num1**3)
+
 
 ###
 
-5)
+9)
+
+num1 = float(input("Informe o primeiro número: "))
+num2 = float(input("Informe o segundo número: "))
+print("Valor decimal", float((num1%num2)), "Valor inteiro", int((num1%num2)))
+
 
 ###
 
-5)
+10)
+alt = float(input("Informe a altura: "))
+larg = float(input("Informe a largura: "))
+print("A área do retangulo é: ", float((alt*larg)))
+      
+###
+
+11)
+
+qtd_dias = int(inpu("Quantidade em dias: "))
+qtd_hora = int(input("Quantidade horas: "))
+qtd_minu = int(input("Quantidade minutos: "))
+qtd_segund = int(input("Quantidade segundos: "))
+print("O valor convertido para segundos é: ", init(qtd_dias*86400) + init(qtd_hora*3600) + init(qtd_minu*60) + init(qtd_segund))
 
 ###
 
-5)
+12)
+valor = float(input("Digite um valor: "))
+print("O valor do desconto é:", valor * 0.10, "R$ reais")
 
 
