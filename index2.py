@@ -21,3 +21,37 @@ if(num1 > num2):
   print("O primeiro número é maior.")
 else:
   print("O segundo número é maior.")
+
+#4) Faça um algoritmo que peça a idade de uma pessoa e imprima na tela se a mesma já é maior de idade ou então, se a mesma é de menor.
+idade = int(input("Informe a sua idade: "))
+if(idade >= 18):
+    print("Você é maior de 18 anos")
+else:
+    print("Você é menor de 18 anos")
+
+# 5) Faça um algoritmo que peça a idade do usuário e a idade da sua mãe. Em seguida, imprima na tela com quantos anos sua mãe o teve.
+minha_idade = int(input("Informe a sua idade: "))
+mae_idade = int(input("Informe a idade a sua mãe: "))
+result = (minha_idade - mae_idade)
+if result < 0:
+    print("Sua mãe te teve com:", abs(result))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
