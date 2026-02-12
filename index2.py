@@ -36,6 +36,72 @@ result = (minha_idade - mae_idade)
 if result < 0:
     print("Sua mãe te teve com:", abs(result))
 
+# 6) Faça um algoritmo que imprima 50 vezes o caractere "-" na tela (sem a utilização de laços de repetição).
+print(50 * "-")
+
+
+# 7) Faça um algoritmo que verifica se um determinado valor é um número inteiro.
+num = float(input("Digite o número: "))
+if(num % 1 == 0):
+    print("O número é inteiro")
+else:    
+    print("O número fracionário")
+
+#8) Faça um algoritmo que verifica se um determinado valor é uma String.
+veri = type(input("Informe algo: "))
+if isinstance(veri, str):
+    print("É uma string")
+else:
+    print("Não é uma string")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
